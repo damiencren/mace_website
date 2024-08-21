@@ -1,0 +1,18 @@
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    max-width: 80%;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card {
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}

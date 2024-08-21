@@ -9,13 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/carousel": "^7.12.1",
     "@mantine/core": "7.12.1",
+    "@mantine/form": "^7.12.1",
     "@mantine/hooks": "7.12.1",
+    "embla-carousel-react": "7.1.0",
+    "formidable": "^3.5.1",
     "next": "14.2.4",
+    "nodemailer": "^6.9.14",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "resend": "^4.0.0"
   },
   "devDependencies": {
+    "@types/formidable": "^3.4.5",
     "@types/node": "20.14.8",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
@@ -26,5 +33,5 @@
     "postcss-simple-vars": "^7.0.1",
     "typescript": "5.5.2"
   },
-  "packageManager": "yarn@4.4.0"
+  "packageManager": "pnpm@9.5.0"
 }

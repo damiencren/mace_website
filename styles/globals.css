@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #ffd83d;
+    --primary-color-hover: #ffe169;
+    --secondary-color: rgb(77, 77, 77);
+    --secondary-color-hover: #797979;
+}
+
+:root[data-mantine-color-scheme="light"] {
+    --mantine-color-body: var(--mantine-color-gray-1) !important;
+  }
+
+
+:root[data-mantine-color-scheme="dark"] {
+--mantine-color-body: #282827 !important;
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: var(--primary-color-hover);
+}
