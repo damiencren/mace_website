@@ -15,8 +15,7 @@ export default function Maconnerie() {
         
     const title = "Mini pelle"
 
-    const description = "Nous réalisons tous vos travaux de terrassement, de la création de tranchées à la préparation de terrain pour la construction de piscines. Nous vous garantissons un travail de qualité, réalisé dans les règles de l'art."
-
+    const description = "Nous proposons un service de location de mini-pelle avec chauffeur, idéal pour divers travaux de terrassement et d'aménagement. Nos machines sont équipées de godets adaptés pour effectuer des tâches variées, telles que la préparation de terrains ou la pose de petits réseaux. Pour des travaux plus techniques, nous mettons également à disposition des pinces de tri, permettant de manipuler et de trier des matériaux en toute efficacité. Notre chauffeur expérimenté s'assure d'une utilisation optimale de la machine, respectant les normes de sécurité et les délais convenus. Choisissez notre service pour des interventions précises et professionnelles, adaptées à vos besoins spécifiques."
     return (
         <RootLayout>
             <Container className={classes.main}>

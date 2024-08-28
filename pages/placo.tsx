@@ -22,8 +22,7 @@ export default function Maconnerie() {
         
     const title = "Placo"
 
-    const description = "Nous réalisons tous vos travaux de placo, de la pose de cloisons à la réalisation de faux plafonds. Nous vous garantissons un travail de qualité, réalisé dans les règles de l'art."
-
+    const description = "Notre activité de pose de placo se spécialise dans l'installation de plaques de plâtre pour optimiser l'isolation et l'aménagement intérieur de vos espaces. Nous commençons par une analyse des surfaces à traiter, en évaluant les besoins spécifiques en matière d'isolation thermique et acoustique. Notre équipe s'assure d'une mise en œuvre précise, incluant le montage de structures métalliques, la découpe des plaques et leur fixation sécurisée. Nous garantissons une finition soignée, avec des joints parfaitement réalisés pour un rendu esthétique. Faites confiance à notre expertise pour des travaux de pose de placo qui allient performance et durabilité."
     return (
         <RootLayout>
             <Container className={classes.main}>

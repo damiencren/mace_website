@@ -23,7 +23,7 @@
 }
 
 .image {
-    flex: 0 0 50%;
+    width: 50%;
 }
 
 .text {
