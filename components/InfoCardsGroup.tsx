@@ -38,7 +38,7 @@ const data = [
 export default function InfoCardsGroup() {
 
     const cards = data.map((item) => (
-        <InfoCard {...item} />
+        <InfoCard key={item.title} {...item} />
     ));
 
     return (
