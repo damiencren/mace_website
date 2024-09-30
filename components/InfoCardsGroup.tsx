@@ -26,6 +26,12 @@ const data = [
         description: "Description",
         image: "/icons/maco.svg",
         link: "/maconnerie",
+    },
+    {
+        title: "Travaux spécifiques",
+        description: "Description",
+        image: "/icons/maco.svg",
+        link: "/travaux_specifiques",
     }
 ];
 

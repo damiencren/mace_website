@@ -9,7 +9,8 @@ const mainLinks = [
     { link: '/carrelage', label: 'Carrelage' },
     { link: '/placo', label: 'Placo' },
     { link: '/maconnerie', label: 'Maconnerie' },
-    { link: '/minipelle', label: 'Mini pelle' }
+    { link: '/minipelle', label: 'Mini pelle' },
+    { link: '/travaux_specifiques', label: 'Travaux spécifiques' }
   ];
 
 export default function Header() {
