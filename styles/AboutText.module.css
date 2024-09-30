@@ -6,6 +6,7 @@
     gap: 1rem;
 }
 
+
 .title {
     font-size: 3rem;
     font-weight: 700;
@@ -20,6 +21,13 @@
     border-radius: 10px;
     border: 1px solid var(--secondary-color);
     padding: 1rem;
+}
+
+
+@media (max-width: 700px) {
+    .splitContainer {
+        flex-direction: column;
+    }
 }
 
 .image {

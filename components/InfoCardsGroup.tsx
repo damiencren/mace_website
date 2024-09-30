@@ -30,7 +30,7 @@ const data = [
     {
         title: "Travaux spécifiques",
         description: "Description",
-        image: "/icons/maco.svg",
+        image: "/icons/specifiques.png",
         link: "/travaux_specifiques",
     }
 ];
