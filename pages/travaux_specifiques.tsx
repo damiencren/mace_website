@@ -9,8 +9,8 @@ import AboutText from '../components/AboutText';
 export default function Maconnerie() {
   
     const links = [
-        "./1.jpg",
-        "./2.jpg"
+        '/photos/decap/1.png',
+        '/photos/charp/1.png'
     ]
         
     const title1 = "Décapage de toiture"
@@ -21,8 +21,8 @@ export default function Maconnerie() {
     return (
         <RootLayout>
             <Container className={classes.main}>
-                <AboutText title={title1} description={description1}/>
-                <AboutText title={title2} description={description2}/>
+                <AboutText title={title1} description={description1} image='/photos/decap/1.png'/>
+                <AboutText title={title2} description={description2} image='/photos/charp/1.png'/>
                 <RealisationCarousel links={links}/>
             </Container>
         </RootLayout>

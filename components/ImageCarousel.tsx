@@ -7,10 +7,11 @@ import MainCarouselCard from './MainCarouselCard';
 
 
 const data= [
-  {title: 'Carrelage', image: '/1.jpg', link : '/carrelage'},
-  {title: 'Placo', image: '/2.jpg', link : '/placo'},
-  {title: 'Mini pelle', image: '/3.jpg', link : '/minipelle'},
-  {title: 'Maconnerie', image: '/3.jpg', link : '/maconnerie'}
+  {title: 'Carrelage', image: '/photos/car/1.png', link : '/carrelage'},
+  {title: 'Placo', image: '/photos/placo/2.png', link : '/placo'},
+  {title: 'Mini pelle', image: '/photos/mini/1.png', link : '/minipelle'},
+  {title: 'Maconnerie', image: '/photos/maco/1.png', link : '/maconnerie'},
+  {title: 'Travaux Spécifiques', image: '/photos/charp/1.png', link : '/travaux_specifiques'}
 ]
 
 export default function ImageCarousel() {
@@ -28,7 +29,7 @@ export default function ImageCarousel() {
     style={{ width: '100%' }}
     >
       <Carousel.Slide>
-        <MainCarouselCard title='Votre projet notre savoir faire' image='/1.jpg'/>
+        <MainCarouselCard title='Votre projet notre savoir faire' image='/photos/placo/3.png'/>
       </Carousel.Slide>
       {slides}
     </Carousel>

@@ -16,8 +16,9 @@ import AboutText from '../components/AboutText';
 export default function Maconnerie() {
   
     const links = [
-        "./1.jpg",
-        "./2.jpg"
+        '/photos/placo/1.png',
+        '/photos/placo/2.png',
+        '/photos/placo/3.png'
     ]
         
     const title = "Placo"
@@ -26,7 +27,7 @@ export default function Maconnerie() {
     return (
         <RootLayout>
             <Container className={classes.main}>
-                <AboutText title={title} description={description}/>
+                <AboutText title={title} description={description} image='/photos/placo/1.png'/>
                 <RealisationCarousel links={links}/>
             </Container>
         </RootLayout>
